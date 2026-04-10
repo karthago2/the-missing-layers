@@ -49,6 +49,7 @@ The ABP governs the boundary between autonomous agents and the human world throu
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details. The short version:
 
+- **Think these layers are missing?** Star this repo and share it with someone building agents. Visibility helps as much as code.
 - **Feedback on the whitepaper?** Open an [Issue](../../issues)
 - **Want to discuss an open question?** Start a [Discussion](../../discussions)
 - **See a gap in the architecture?** We want to hear about it. The best improvements so far came from uncomfortable questions
