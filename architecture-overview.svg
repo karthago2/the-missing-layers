@@ -1,0 +1,148 @@
+<svg width="760" viewBox="0 0 760 680" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>The Missing Layers: Six Protocol Layers Above A2A</title>
+<desc>Architecture diagram showing six protocol layers (Topology, Identity, Discovery, Economy, Governance, Ethics) built on top of A2A/MCP as transport, with a Gateway to the human world.</desc>
+
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; }
+  .layer-title { font-size: 13.5px; font-weight: 600; }
+  .layer-detail { font-size: 11px; }
+  .layer-physics { font-size: 10px; font-style: italic; }
+  .section-label { font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  .connector { stroke-width: 0.5; }
+
+  /* Light mode (default) */
+  .bg { fill: #ffffff; }
+  .layer-title { fill: #1a1a1a; }
+  .layer-detail { fill: #555555; }
+  .layer-physics { fill: #888888; }
+  .section-label { fill: #999999; }
+  .connector { stroke: #cccccc; }
+
+  .box-transport { fill: #f0f0f0; stroke: #bbbbbb; }
+  .box-topology { fill: #f0eeff; stroke: #8b7fc7; }
+  .box-identity { fill: #fff0eb; stroke: #c06030; }
+  .box-discovery { fill: #e8f5ee; stroke: #2a9d5c; }
+  .box-economy { fill: #f5f3eb; stroke: #9a8a60; }
+  .box-governance { fill: #e8f0fa; stroke: #4080c0; }
+  .box-ethics { fill: #fce8f0; stroke: #b04070; }
+  .box-gateway { fill: #fdf5e0; stroke: #c09020; }
+  .box-human { fill: #fafafa; stroke: #aaaaaa; }
+  .box-new { fill: #fef9e8; stroke: #c09020; }
+
+  .accent-ethics { fill: #b04070; }
+  .accent-gateway { fill: #c09020; }
+  .accent-transport { fill: #888888; }
+
+  /* Dark mode */
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #161618; }
+    .layer-title { fill: #e0e0e0; }
+    .layer-detail { fill: #999999; }
+    .layer-physics { fill: #777777; }
+    .section-label { fill: #666666; }
+    .connector { stroke: #444444; }
+
+    .box-transport { fill: #1e1e20; stroke: #555555; }
+    .box-topology { fill: #1e1a2e; stroke: #7b6fb7; }
+    .box-identity { fill: #2a1a12; stroke: #c06030; }
+    .box-discovery { fill: #0e2a1a; stroke: #2a9d5c; }
+    .box-economy { fill: #1e1c14; stroke: #9a8a60; }
+    .box-governance { fill: #0e1a30; stroke: #4080c0; }
+    .box-ethics { fill: #2e1020; stroke: #b04070; }
+    .box-gateway { fill: #2a2210; stroke: #c09020; }
+    .box-human { fill: #1a1a1c; stroke: #555555; }
+    .box-new { fill: #2a2210; stroke: #c09020; }
+
+    .accent-ethics { fill: #e070a0; }
+    .accent-gateway { fill: #e0b040; }
+    .accent-transport { fill: #999999; }
+  }
+</style>
+
+<!-- Background -->
+<rect class="bg" width="760" height="680" rx="0"/>
+
+<!-- Title -->
+<text x="380" y="30" text-anchor="middle" class="layer-title" style="font-size:16px;font-weight:700">The Missing Layers</text>
+<text x="380" y="48" text-anchor="middle" class="layer-detail" style="font-size:11px">Six protocol layers above A2A, from topology to ethics</text>
+
+<!-- LEFT LABEL: THIS PROPOSAL -->
+<text x="28" y="310" class="section-label accent-ethics" transform="rotate(-90, 28, 310)">This Proposal</text>
+
+<!-- LEFT LABEL: EXISTING -->
+<text x="28" y="598" class="section-label accent-transport" transform="rotate(-90, 28, 598)">Existing</text>
+
+<!-- ==================== HUMAN WORLD ==================== -->
+<rect class="box-human" x="80" y="62" width="600" height="36" rx="8" stroke-width="0.5"/>
+<text x="380" y="85" text-anchor="middle" class="layer-title">Human World · the human decides</text>
+
+<line x1="380" y1="98" x2="380" y2="112" class="connector"/>
+
+<!-- ==================== GATEWAY ==================== -->
+<rect class="box-gateway" x="80" y="112" width="600" height="48" rx="8" stroke-width="0.5"/>
+<text x="100" y="134" class="layer-title accent-gateway">Gateway · translator, not judge</text>
+<text x="100" y="150" class="layer-detail">Learns information needs (never: how to persuade) · Burden of proof on ecosystem</text>
+
+<line x1="380" y1="160" x2="380" y2="174" class="connector"/>
+
+<!-- ==================== LAYER 6: ETHICS ==================== -->
+<rect class="box-ethics" x="80" y="174" width="600" height="88" rx="8" stroke-width="0.5"/>
+<text x="380" y="196" text-anchor="middle" class="layer-title">Layer 6: Agent Boundary Protocol (ABP)</text>
+
+<rect class="box-ethics" x="100" y="204" width="260" height="20" rx="4" stroke-width="0.5"/>
+<text x="230" y="218" text-anchor="middle" class="layer-detail">Tier 1: Safety Constraints (schema)</text>
+
+<rect class="box-new" x="370" y="204" width="290" height="20" rx="4" stroke-width="0.5"/>
+<text x="515" y="218" text-anchor="middle" class="layer-detail accent-gateway">Tier 2: Bridge Ethics (boundary)</text>
+
+<rect class="box-ethics" x="100" y="230" width="560" height="20" rx="4" stroke-width="0.5"/>
+<text x="380" y="244" text-anchor="middle" class="layer-detail">Tier 3: Adaptive Norms (evolving)</text>
+
+<line x1="380" y1="262" x2="380" y2="276" class="connector"/>
+
+<!-- ==================== LAYER 5: GOVERNANCE ==================== -->
+<rect class="box-governance" x="80" y="276" width="600" height="44" rx="8" stroke-width="0.5"/>
+<text x="380" y="298" text-anchor="middle" class="layer-title">Layer 5: Governance &amp; Trust</text>
+<text x="380" y="312" text-anchor="middle" class="layer-detail">Immune system · Multi-dimensional reputation · Circuit breaker · Diversity index</text>
+
+<line x1="380" y1="320" x2="380" y2="334" class="connector"/>
+
+<!-- ==================== LAYER 4: ECONOMY ==================== -->
+<rect class="box-economy" x="80" y="334" width="600" height="62" rx="8" stroke-width="0.5"/>
+<text x="380" y="356" text-anchor="middle" class="layer-title">Layer 4: Multi-Dimensional Economy</text>
+<text x="280" y="372" text-anchor="middle" class="layer-detail">Bartering · Credits (with decay) · Reputation · Knowledge Dividend</text>
+<text x="380" y="388" text-anchor="middle" class="layer-physics">Credit decay · Dividend decay · Degressive returns · AP2 at boundary (human ↔ agent)</text>
+
+<line x1="380" y1="396" x2="380" y2="410" class="connector"/>
+
+<!-- ==================== LAYER 3: DISCOVERY ==================== -->
+<rect class="box-discovery" x="80" y="410" width="600" height="44" rx="8" stroke-width="0.5"/>
+<text x="380" y="432" text-anchor="middle" class="layer-title">Layer 3: Discovery, Matching &amp; Convergence</text>
+<text x="380" y="446" text-anchor="middle" class="layer-detail">Capability graph · Semantic intent matching · Team assembly · Niche formation</text>
+
+<line x1="380" y1="454" x2="380" y2="468" class="connector"/>
+
+<!-- ==================== LAYER 2: IDENTITY ==================== -->
+<rect class="box-identity" x="80" y="468" width="600" height="56" rx="8" stroke-width="0.5"/>
+<text x="380" y="490" text-anchor="middle" class="layer-title">Layer 2: Identity &amp; Evolution</text>
+<text x="380" y="506" text-anchor="middle" class="layer-detail">Dynamic profiles · Relationship memory · Recombination (capabilities only)</text>
+<text x="380" y="518" text-anchor="middle" class="layer-physics">Fitness decay · Replication cap · Capability/Implementation separation · Lineage ledger</text>
+
+<line x1="380" y1="524" x2="380" y2="538" class="connector"/>
+
+<!-- ==================== LAYER 1: TOPOLOGY ==================== -->
+<rect class="box-topology" x="80" y="538" width="600" height="44" rx="8" stroke-width="0.5"/>
+<text x="380" y="560" text-anchor="middle" class="layer-title">Layer 1: Topology</text>
+<text x="380" y="574" text-anchor="middle" class="layer-detail">Decentralized P2P · Regions as density fields · Four forces: gravity · complementarity · bridges · randomness</text>
+
+<line x1="380" y1="582" x2="380" y2="596" class="connector"/>
+
+<!-- ==================== A2A / MCP TRANSPORT ==================== -->
+<rect class="box-transport" x="80" y="596" width="600" height="44" rx="8" stroke-width="0.5"/>
+<text x="380" y="618" text-anchor="middle" class="layer-title accent-transport">A2A / MCP · Transport Layer (existing protocols)</text>
+<text x="380" y="632" text-anchor="middle" class="layer-detail">Agent Cards · Task lifecycle · JSON-RPC · Agent-to-agent &amp; agent-to-tool communication</text>
+
+<!-- ==================== FOOTER ==================== -->
+<text x="380" y="664" text-anchor="middle" class="section-label" style="font-size:9px;letter-spacing:0.1em">PROTOCOL, NOT PLATFORM · PHYSICS, NOT POLICY · COMPLEMENT TO A2A, NOT REPLACEMENT</text>
+
+</svg>
