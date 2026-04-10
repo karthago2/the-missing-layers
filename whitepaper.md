@@ -16,7 +16,7 @@
 
 ## Table of Contents
 
-1. [The Gap: What 150 Organizations Haven't Solved Yet](#1-the-gap)
+1. [The Gap: What 150 Organizations Haven't Solved Yet](#1-the-gap-what-150-organizations-havent-solved-yet)
 2. [Architecture: Six Layers Above A2A](#2-architecture)
 3. [Three Mechanisms That Change the Game](#3-mechanisms)
 4. [First Implementation: The Agent Boundary Protocol](#4-first-implementation)
@@ -27,7 +27,7 @@
 
 ---
 
-## 1. The Gap: What 150 Organizations Haven't Solved Yet ((#1-the-gap-what-150-organizations-havent-solved-yet)
+## 1. The Gap: What 150 Organizations Haven't Solved Yet 
 
 A2A reached version 1.0 this month. Over 150 organizations support it. MCP has 97 million monthly SDK downloads. AP2 brings payments to agents with backing from Mastercard, PayPal, and Visa. The transport layer for agent interoperability is no longer a vision; it is infrastructure.
 
