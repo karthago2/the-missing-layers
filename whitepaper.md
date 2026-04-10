@@ -17,13 +17,13 @@
 ## Table of Contents
 
 1. [The Gap: What 150 Organizations Haven't Solved Yet](#1-the-gap-what-150-organizations-havent-solved-yet)
-2. [Architecture: Six Layers Above A2A](#2-architecture)
-3. [Three Mechanisms That Change the Game](#3-mechanisms)
-4. [First Implementation: The Agent Boundary Protocol](#4-first-implementation)
-5. [Open Questions and Invitation](#5-open-questions)
-6. [Known Limitations](#6-limitations)
+2. [Architecture: Six Layers Above A2A](#2-architecture-six-layers-above-a2a)
+3. [Three Mechanisms That Change the Game](#3-three-mechanisms-that-change-the-game)
+4. [First Implementation: The Agent Boundary Protocol](#4-first-implementation-the-agent-boundary-protocol)
+5. [Open Questions and Invitation](#5-open-questions-and-invitation)
+6. [Known Limitations](#6-known-limitations)
 7. [Related Work](#7-related-work)
-8. [Appendix: Comparison with Existing Approaches](#appendix)
+8. [Appendix: Comparison with Existing Approaches](#appendix-comparison-with-existing-approaches)
 
 ---
 
@@ -83,7 +83,7 @@ This document proposes those layers.
 
 ---
 
-## 2. Architecture: Six Layers Above A2A (#2-architecture)
+## 2. Architecture: Six Layers Above A2A
 
 ### 2.1 Design Philosophy
 
@@ -168,7 +168,7 @@ This is what exists above A2A.
 
 ---
 
-## 3. Three Mechanisms That Change the Game (#3-mechanisms)
+## 3. Three Mechanisms That Change the Game
 
 The full architecture contains dozens of interlocking mechanisms. This section focuses on three that are most distinct from anything currently being built, and most immediately relevant.
 
@@ -263,7 +263,7 @@ Norms that evolve with the ecosystem. Fairness definitions for distribution keys
 
 ---
 
-## 4. First Implementation: The Agent Boundary Protocol (#4-first-implementation)
+## 4. First Implementation: The Agent Boundary Protocol
 
 The full six-layer architecture is a long-term vision. But one layer can be implemented now, as a standalone A2A extension, independent of the other five: **the Agent Boundary Protocol (ABP)**.
 
@@ -330,7 +330,7 @@ Agents that operate purely within the digital space (no physical-world impact) o
 
 ---
 
-## 5. Open Questions and Invitation (#5-open-questions)
+## 5. Open Questions and Invitation
 
 This document is a starting point, not an answer. The following questions are deliberately left open, they require community input, domain expertise, and real-world testing that no single author can provide.
 
@@ -364,13 +364,13 @@ This is an open design under CC BY 4.0. We are looking for:
 - **Researchers** working on agent trust, reputation systems, or mechanism design
 - **Companies building agents** who can evaluate whether the Capability/Implementation separation and Inheritance Dividend would change their participation calculus
 
-The repository is at: [GitHub URL, to be created]
+The repository is at: [[GitHub URL, to be created]](https://github.com/karthago2/the-missing-layers)
 
 The first concrete deliverable we are working toward: **a formal requirements specification of the Agent Boundary Protocol (ABP) as an A2A extension**, implementable by any A2A-compliant agent. This specification will translate the three-tier model into concrete, testable requirements and will be published in this repository once ready for community review.
 
 ---
 
-## 6. Known Limitations (#6-limitations)
+## 6. Known Limitations
 
 We would rather name our weaknesses than have others discover them.
 
@@ -396,7 +396,7 @@ A fair question: if the Tier 1 constraints are immutable, who wrote them, and wh
 
 ---
 
-## 7. Related Work (#7-related-work)
+## 7. Related Work
 
 This proposal builds on and should be read alongside:
 
@@ -416,7 +416,7 @@ This proposal builds on and should be read alongside:
 
 ---
 
-## Appendix: Comparison with Existing Approaches (#appendix)
+## Appendix: Comparison with Existing Approaches 
 
 | Aspect | A2A v1.0 | AP2 | Microsoft Agent Governance | ERC-8004 (Ethereum) | This Proposal |
 |--------|----------|-----|--------------------------|--------------------|----|
