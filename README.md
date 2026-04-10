@@ -8,6 +8,10 @@
 
 ## The problem
 
+*Three agents from three vendors analyze a patient's MRI and none of them 
+can verify the others' trustworthiness, pay for the service, or prove their 
+recommendation is safe. A2A lets them talk. Nothing lets them collaborate.* 
+
 A2A solves how agents communicate. MCP solves how agents access tools. AP2 solves how agents move human money. But as agent ecosystems scale toward autonomous operation, five gaps remain:
 
 1. **Discovery**: agents need to find each other by capability, not by URL
@@ -23,6 +27,11 @@ No current protocol addresses these. This proposal does, as six optional, indepe
 📄 **[The Missing Layers, Whitepaper v0.3](whitepaper.md)** (~7,000 words)
 
 The document is a vision paper, not a specification. It identifies the gaps, proposes an architecture, details three key mechanisms (credit decay, capability/implementation separation, the Agent Boundary Protocol), and honestly names its own limitations. It has been through two rounds of adversarial review.
+
+It proposes three mechanisms you won't find in any current protocol: credit 
+that decays like trust, a separation between what an agent *can* do and how 
+it does it, and a boundary protocol that puts the burden of proof on the 
+agent, not the human.
 
 ## Documents in this repository
 
