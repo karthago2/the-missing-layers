@@ -364,7 +364,7 @@ This is an open design under CC BY 4.0. We are looking for:
 - **Researchers** working on agent trust, reputation systems, or mechanism design
 - **Companies building agents** who can evaluate whether the Capability/Implementation separation and Inheritance Dividend would change their participation calculus
 
-The repository is at: [[GitHub URL, to be created]](https://github.com/karthago2/the-missing-layers)
+The repository is at:(https://github.com/karthago2/the-missing-layers)
 
 The first concrete deliverable we are working toward: **a formal requirements specification of the Agent Boundary Protocol (ABP) as an A2A extension**, implementable by any A2A-compliant agent. This specification will translate the three-tier model into concrete, testable requirements and will be published in this repository once ready for community review.
 
