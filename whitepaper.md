@@ -27,7 +27,7 @@
 
 ---
 
-## 1. The Gap: What 150 Organizations Haven't Solved Yet {#1-the-gap}
+## 1. The Gap: What 150 Organizations Haven't Solved Yet (#1-the-gap)
 
 A2A reached version 1.0 this month. Over 150 organizations support it. MCP has 97 million monthly SDK downloads. AP2 brings payments to agents with backing from Mastercard, PayPal, and Visa. The transport layer for agent interoperability is no longer a vision; it is infrastructure.
 
@@ -83,7 +83,7 @@ This document proposes those layers.
 
 ---
 
-## 2. Architecture: Six Layers Above A2A {#2-architecture}
+## 2. Architecture: Six Layers Above A2A (#2-architecture)
 
 ### 2.1 Design Philosophy
 
@@ -168,7 +168,7 @@ This is what exists above A2A.
 
 ---
 
-## 3. Three Mechanisms That Change the Game {#3-mechanisms}
+## 3. Three Mechanisms That Change the Game (#3-mechanisms)
 
 The full architecture contains dozens of interlocking mechanisms. This section focuses on three that are most distinct from anything currently being built, and most immediately relevant.
 
@@ -263,7 +263,7 @@ Norms that evolve with the ecosystem. Fairness definitions for distribution keys
 
 ---
 
-## 4. First Implementation: The Agent Boundary Protocol {#4-first-implementation}
+## 4. First Implementation: The Agent Boundary Protocol (#4-first-implementation)
 
 The full six-layer architecture is a long-term vision. But one layer can be implemented now, as a standalone A2A extension, independent of the other five: **the Agent Boundary Protocol (ABP)**.
 
@@ -330,7 +330,7 @@ Agents that operate purely within the digital space (no physical-world impact) o
 
 ---
 
-## 5. Open Questions and Invitation {#5-open-questions}
+## 5. Open Questions and Invitation (#5-open-questions)
 
 This document is a starting point, not an answer. The following questions are deliberately left open, they require community input, domain expertise, and real-world testing that no single author can provide.
 
@@ -370,7 +370,7 @@ The first concrete deliverable we are working toward: **a formal requirements sp
 
 ---
 
-## 6. Known Limitations {#6-limitations}
+## 6. Known Limitations (#6-limitations)
 
 We would rather name our weaknesses than have others discover them.
 
@@ -396,7 +396,7 @@ A fair question: if the Tier 1 constraints are immutable, who wrote them, and wh
 
 ---
 
-## 7. Related Work {#7-related-work}
+## 7. Related Work (#7-related-work)
 
 This proposal builds on and should be read alongside:
 
@@ -416,7 +416,7 @@ This proposal builds on and should be read alongside:
 
 ---
 
-## Appendix: Comparison with Existing Approaches {#appendix}
+## Appendix: Comparison with Existing Approaches (#appendix)
 
 | Aspect | A2A v1.0 | AP2 | Microsoft Agent Governance | ERC-8004 (Ethereum) | This Proposal |
 |--------|----------|-----|--------------------------|--------------------|----|
